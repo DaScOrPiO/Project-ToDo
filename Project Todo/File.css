@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(/img/istockphoto-1189708364-612x612.jpg);
+    font-size: 1em;
+}
+
+.container {
+    background: #ffffff56;
+    color: #000000;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Animated-container {
+    width: 50%;
+    height: 50%;
+    background: transparent;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    backdrop-filter: blur(-25px);
+    box-shadow: #000000 2px 2px 4px 10px, #463310 8px 8px 4px 10px;
+    animation: play 60s ease-in .2s infinite;
+    position: absolute;
+    font-size: 1.5rem;
+}
+button{
+    width: 20vmin;
+    height: 8vmin;
+    text-align: center;
+    padding: 1em 1.5em;
+    font-size: 1rem;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    transition: all .5s ease-in;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    border-radius: 10em;
+}
+button:hover{
+    cursor: pointer;
+    transform: scaleX(1.2)
+}
+#p{
+    color: #000000;
+    width: 20%;
+}
+@keyframes play {
+    2% {
+        box-shadow: 2px 2px 4px 10px red, #1f1f1f 8px 8px 4px 10px;
+    }
+
+    5% {
+        box-shadow: 2px 2px 4px 10px orange, #643c00 8px 8px 4px 10px;
+    }
+    8% {
+        box-shadow: 2px 2px 4px 10px yellow, #324b00 8px 8px 4px 10px;
+    }
+    10% {
+        box-shadow: 2px 2px 4px 10px green, #915e00 8px 8px 4px 10px;
+    }
+    12%{
+        box-shadow: 2px 2px 4px 10px blue, #47008a73 8px 8px 4px 10px;
+    }
+    15%{
+        box-shadow: 2px 2px 4px 10px indigo, #141414 8px 8px 4px 10px;
+    }
+    18%{
+        box-shadow: 2px 2px 4px 10px violet, #300024 8px 8px 4px 10px;
+    }
+    20%{
+        box-shadow: 2px 2px 4px 10px purple, #0e0e0e 8px 8px 4px 10px;
+        top: 0%; left: 2%;
+    }
+    22%{
+        box-shadow: 2px 2px 4px 10px orangered, #ffa500 8px 8px 4px 10px;
+    }
+    24%{
+        box-shadow: 2px 2px 4px 10px #1f1f1f, red 8px 8px 4px 10px;
+    }
+    28%{
+        box-shadow: 2px 2px 4px 10px #643c00, orange 8px 8px 4px 10px;
+    }
+    30%{
+        box-shadow: 2px 2px 4px 10px #324b00, yellow 8px 8px 4px 10px;
+    }
+    32%{
+        box-shadow: 2px 2px 4px 10px #915e00, green 8px 8px 4px 10px;
+    }
+    35%{
+        box-shadow: 2px 2px 4px 10px blue, #47008a73 8px 8px 4px 10px;
+    }
+    38%{
+        box-shadow: 2px 2px 4px 10px goldenrod, #000000 8px 8px 4px 10px;
+    }
+    40%{
+        box-shadow: 2px 2px 4px 10px indigo, #300024 8px 8px 4px 10px;
+        top: 40%; left: 5%;
+    }
+    42%{
+        box-shadow: 2px 2px 4px 10px violet, #300024 8px 8px 4px 10px;
+    }
+    44%{
+        box-shadow: 2px 2px 4px 10px violet, #300024 8px 8px 4px 10px;
+    }
+    48%{
+        box-shadow: 2px 2px 4px 10px gold, #000000 8px 8px 4px 10px;
+    }
+    50%{
+        box-shadow: 2px 2px 4px 10px #795c00, #110b01 8px 8px 4px 10px;
+        transform: rotateY(360deg);
+        top: 0%; left: 45%;
+    }
+    52%{
+        box-shadow: 2px 2px 4px 10px #1f1f1f, orange 8px 8px 4px 10px;
+    }
+    55%{
+        box-shadow: 2px 2px 4px 10px #141414, green 8px 8px 4px 10px;
+    }
+    58%{
+        box-shadow: 2px 2px 4px 10px limegreen, #324b00 8px 8px 4px 10px;
+    }
+    60%{
+        box-shadow: 2px 2px 4px 10px lime, #324b00 8px 8px 4px 10px;
+    }
+    62%{
+        box-shadow: 2px 2px 4px 10px yellow, #ffa500 8px 8px 4px 10px;
+    }
+    64%{
+        box-shadow: 2px 2px 4px 10px blueviolet, #00010e 8px 8px 4px 10px;
+    }
+    66%{
+        box-shadow: 2px 2px 4px 10px #00010e, blue 8px 8px 4px 10px;
+    }
+    68%{
+        box-shadow: 2px 2px 4px 10px blue, #00010e 8px 8px 4px 10px;
+        top: 40%; left: 50%;
+    }
+    70%{
+        box-shadow: 2px 2px 4px 10px red, #1f1f1f 8px 8px 4px 10px;
+    }
+    72%{
+        box-shadow: 2px 2px 4px 10px #1f1f1f, red 8px 8px 4px 10px;
+    }
+    75%{
+        box-shadow: 2px 2px 4px 10px #270000cb, #702400 8px 8px 4px 10px;
+    }
+    78%{
+        box-shadow: 2px 2px 4px 10px aqua, #0e2e2efd 8px 8px 4px 10px;
+    }
+    80%{
+        box-shadow: 2px 2px 4px 10px #0e2e2efd, aqua 8px 8px 4px 10px;
+        transform: rotateX(360deg);
+    }
+    84%{
+        box-shadow: 2px 2px 4px 10px aquamarine, #00412b 8px 8px 4px 10px;
+    }
+    86%{
+        box-shadow: 2px 2px 4px 10px #00412b, aquamarine 8px 8px 4px 10px;
+    }
+    90%{
+        box-shadow: 2px 2px 4px 10px azure, rgb(34, 37, 37) 8px 8px 4px 10px;
+        border-radius: 50%;
+    }
+    92%{
+        box-shadow: 2px 2px 4px 10px darkorange, #000000 8px 8px 4px 10px;
+    }
+    95%{
+        box-shadow: 2px 2px 4px 10px teal, #000c0c 8px 8px 4px 10px;
+    }
+    98%{
+        box-shadow: 2px 2px 4px 10px maroon, #000000 8px 8px 4px 10px;
+    }
+    100%{
+        box-shadow: 2px 2px 4px 10px #000000, rgb(37, 0, 0) 8px 8px 4px 10px;
+    }
+}
+
+h1 {
+    font-size: 4em;
+    text-align: center;
+    align-self: center;
+}
