@@ -1,4 +1,4 @@
-# Project-ToDo is a simple beginner's project that works in user's browser console to set daiy tasks.
+# Project-ToDo is a simple beginner's Javascript project that works in user's browser console to set daiy tasks.
 WHAT IT DOES?
 1. Creates/Sets daily task(s).
 2. List Tasks.
